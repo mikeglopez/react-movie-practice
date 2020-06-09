@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>MovieList</h1>
+        <h1 style={styles.title}>MovieList</h1>
         <div>
           <MovieList movies={this.state.movies} />
         </div>
@@ -29,5 +29,13 @@ class App extends React.Component {
     );
   }
 }
+
+const styles = {
+  title: {
+    backgroundColor: '#F2F2F2',
+    fontFamily: 'Arial, sans-serif',
+    padding: 25
+  }
+};
 
 ReactDOM.render(<App />, document.getElementById('app'));
