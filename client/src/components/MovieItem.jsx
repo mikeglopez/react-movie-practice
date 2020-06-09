@@ -8,8 +8,8 @@ const styles = {
   item: {
     listStyle: 'none',
     padding: 25,
-    border: '1px solid #CCCCCC',
-    fontFamily: 'Arial, sans-serif'
+    fontFamily: 'Arial, sans-serif',
+    borderBottom: '1px solid #CCCCCC'
   }
 };
 
