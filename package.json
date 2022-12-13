@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mikeglopez/react-movie-practice#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
